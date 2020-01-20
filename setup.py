@@ -18,8 +18,8 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/kamakshibehl/topsis_kamakshi.git",
-    download_url="https://github.com/kamakshibehl/topsis_kamakshi/archive/0.0.1.tar.gz"
-    packages=setuptools.find_packages(),
+    download_url="https://github.com/kamakshibehl/topsis_kamakshi/archive/0.0.1.tar.gz",
+    packages=["topsis_kamakshi"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
